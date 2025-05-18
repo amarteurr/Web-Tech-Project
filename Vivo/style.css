@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+.vep-new-header .vep-pc-nav-item {
+    font-size: 14px;
+    line-height: 86px;
+    color: #242933;
+    transition: color .4s;
+    list-style: none;
+}
+/* เพิ่มโค้ดนี้ใน style.css */
+.nav-link-item {
+    color: #242933; /* สีปกติ */
+    text-decoration: none;
+    transition: color 0.3s ease;
+    padding: 16.875px;
+}
+
+.nav-link-item:hover {
+    color: blue; /* สีเมื่อเอาเมาส์ไปชี้ */
+}
+.nav-header-pc-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* หรือใช้ flex-start / center ตามต้องการ */
+    padding: 10px 20px;
+    position: relative;
+}
+.vep-new-header {
+    display: flex;
+}
+.vep-pc-nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.vep-pc-nav-list {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    list-style: none;
+    margin: 0 auto;
+    padding:0 1.25vw;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;;
+}
+
+.vep-pc-logo:hover svg .vep-pc-logo-path {
+    fill: #007aff 
+  }
