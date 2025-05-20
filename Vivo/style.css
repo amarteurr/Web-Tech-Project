@@ -1,468 +1,575 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-#a1{
-    background-color: white;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-  .banner-large-content-black {
-    background-image: url("/Vivo/89d3fe6f69c0368c739fdd9b51f4b2c5.jpg");
-    width: 100%;
-    position: relative;
-    background-size: cover;
-    background-position: center;       /* หรือ contain แล้วแต่ต้องการ */
-    height: 600px;
-    display: flex;
+#a1 {
+  background-color: white;
+}
+.banner-large-content-black {
+  background-image: url("/Vivo/89d3fe6f69c0368c739fdd9b51f4b2c5.jpg");
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: center; /* หรือ contain แล้วแต่ต้องการ */
+  height: 600px;
+  display: flex;
 }
 
 .vep-new-header .vep-pc-nav-item {
-    font-size: 14px;
-    line-height: 86px;
-    color: #242933;
-    transition: color .4s;
-    list-style: none;
-    background-color: white;
+  font-size: 14px;
+  line-height: 86px;
+  color: #242933;
+  transition: color 0.4s;
+  list-style: none;
+  background-color: white;
 }
 
 /* เพิ่มโค้ดนี้ใน style.css */
 .nav-link-item {
-    color: #242933; /* สีปกติ */
-    text-decoration: none;
-    transition: color 0.3s ease;
-    padding: 16.875px;
+  color: #242933; /* สีปกติ */
+  text-decoration: none;
+  transition: color 0.3s ease;
+  padding: 16.875px;
 }
 
 .nav-link-item:hover {
-    color: blue; /* สีเมื่อเอาเมาส์ไปชี้ */
+  color: blue; /* สีเมื่อเอาเมาส์ไปชี้ */
 }
 .nav-header-pc-box {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; /* หรือใช้ flex-start / center ตามต้องการ */
-    padding: 10px 20px;
-    position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* หรือใช้ flex-start / center ตามต้องการ */
+  padding: 10px 20px;
+  position: relative;
 }
 .vep-new-header {
-    display: flex;
+  display: flex;
 }
 .vep-pc-nav-item {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .vep-pc-nav-list {
-    margin-top: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    list-style: none;
-    margin: 0 auto;
-    padding:0 200px;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0 200px;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    margin-left: 200px;;
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
 }
 
 .vep-pc-logo:hover svg .vep-pc-logo-path {
-    fill: #007aff 
-  }
+  fill: #007aff;
+}
 .nav-rigth {
-    display: flex;
+  display: flex;
 }
 
 .search-icon {
-    padding-right: 40px;
+  padding-right: 40px;
 }
 .banner-large-content-black {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    gap: 20px;
-    flex-wrap: wrap;
-    padding: 20px;
-    margin-left: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-left: 200px;
 }
 .banner-large-product {
-    width: 150px;
-    height: auto;
-    max-width: 100%;
+  width: 150px;
+  height: auto;
+  max-width: 100%;
 }
-.banner-large-title{
-    margin-bottom: 50px;
+.banner-large-title {
+  margin-bottom: 50px;
 }
 .no-flip-over {
-    font-size: 30px;
-    font-weight: 500;
-    font-family: Prompt, sans-serif;
-    width: 150px;
-    height: auto;
-    max-width: 100%;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: Prompt, sans-serif;
+  width: 150px;
+  height: auto;
+  max-width: 100%;
 }
 .banner-large-link {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .a1 {
-    color: rgb(36, 41, 51);
-    text-decoration: none;
-    transition: color 0.3s, transform 0.3s ease;
-    display: inline-block; /* ต้องใช้เพื่อให้ scale ทำงานได้กับ <a> */
+  color: rgb(36, 41, 51);
+  text-decoration: none;
+  transition: color 0.3s, transform 0.3s ease;
+  display: inline-block; /* ต้องใช้เพื่อให้ scale ทำงานได้กับ <a> */
 }
 
 .a1:hover {
-    color: #007aff;
-    transform: scale(1.1); /* ขยาย 10% */
+  color: #007aff;
+  transform: scale(1.1); /* ขยาย 10% */
 }
 .banner-container {
-    padding: 80px;
-    background-color: #f6f8fb;
+  padding: 80px;
+  background-color: #f6f8fb;
 }
 .banner-mid-content-box {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    background-image: url(/Vivo/b3cb8c6664975629df9d7c055b499779.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 800px;
-    padding-left: 100px;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding-bottom: 200px;
-    border-radius: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url(/Vivo/b3cb8c6664975629df9d7c055b499779.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px;
+  padding-left: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-bottom: 200px;
+  border-radius: 25px;
 }
 .mid-title {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 .a2 {
-    color: rgb(36, 41, 51);
-    font-size: 20px;
-    text-decoration: none;
-    transition: color 0.3s, transform 0.3s ease;
-    display: inline-block; /* ต้องใช้เพื่อให้ scale ทำงานได้กับ <a> */
+  color: rgb(36, 41, 51);
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 0.3s, transform 0.3s ease;
+  display: inline-block; /* ต้องใช้เพื่อให้ scale ทำงานได้กับ <a> */
 }
 
 .a2:hover {
-    color: #007aff;
-    transform: scale(1.1); /* ขยาย 10% */
+  color: #007aff;
+  transform: scale(1.1); /* ขยาย 10% */
 }
 .yada {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-image: url('/Vivo/f84b10807ec4dc53cd8d24b1517ab9cd.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    max-width: 1200px;
-    height: 800px;
-    margin: 40px  auto;
-    border-radius: 25px;
-    padding: 0 60px;
-    box-sizing: border-box;
-    overflow: hidden;
-    background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("/Vivo/f84b10807ec4dc53cd8d24b1517ab9cd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 1200px;
+  height: 800px;
+  margin: 40px auto;
+  border-radius: 25px;
+  padding: 0 60px;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #fff;
 }
-
 
 .yada-img {
-    flex: 1;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 .yada-img img {
-    width: 340px;
-    height: auto;
+  width: 340px;
+  height: auto;
 }
 
-
 .yada-text {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end; /* เปลี่ยนจาก center เป็น right */
-    text-align: right;
-    color: black;
-    padding-right: 0; /* แก้ไขเพื่อให้ไม่ดันออก */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end; /* เปลี่ยนจาก center เป็น right */
+  text-align: right;
+  color: black;
+  padding-right: 0; /* แก้ไขเพื่อให้ไม่ดันออก */
 }
 
 .yada-title span {
-    font-weight: bold;
-    font-size: 32px;
+  font-weight: bold;
+  font-size: 32px;
 }
 
 .yada-link .a3 {
-    margin-top: 10px;
-    display: inline-block;
-    color: #000000;
-    padding: 8px 200px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-size: 18px;
+  margin-top: 10px;
+  display: inline-block;
+  color: #000000;
+  padding: 8px 200px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 18px;
 }
-#y200{
-    padding-right: 150px;
+#y200 {
+  padding-right: 150px;
 }
 
- #part3{
-    margin: 0;
-    background-color: rgb(221, 226, 228);
-    font-family: 'Segoe UI', sans-serif;
-    color: #000;
- }
+#part3 {
+  margin: 0;
+  background-color: rgb(221, 226, 228);
+  font-family: "Segoe UI", sans-serif;
+  color: #000;
+}
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  text-align: center;
+  padding: 1rem 1rem 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+  border-bottom: 1px solid red;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.05rem;
+  margin: 0.5rem 0 0.2rem;
+}
+
+.desc {
+  font-size: 0.95rem;
+  color: #333;
+}
+#tws {
+  margin-left: 800px;
+}
+
+.footer {
+  background-color: #1f232a;
+  padding: 40px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.footer-col {
+  flex: 1 1 200px;
+}
+
+.footer-col h4 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col li {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.footer-contact {
+  flex: 1 1 300px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.footer-contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-contact li {
+  margin: 10px 0;
+}
+
+.footer-contact i {
+  margin-right: 10px;
+  color: #ccc;
+}
+
+.highlight-number {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.socials {
+  margin-top: 20px;
+}
+
+.social-icons i {
+  margin-right: 10px;
+  font-size: 18px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.social-icons i:hover {
+  color: #fff;
+}
+
+@media screen and (min-width: 480px) {
+  .img-none {
+    display: none;
   }
-  
-  .title {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  /* ซ่อนเมนูเฉพาะรายการ */
+  .vep-new-header,
+  .vep-pc-nav-list {
+    display: none;
   }
-  
-  .card-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 1.5rem;
-    justify-items: center;
+
+  .header { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(246, 248, 251);
   }
-  
-  .card {
-    background: #fff;
-    border-radius: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 200px;
-    text-align: center;
-    padding: 1rem 1rem 1.5rem;
-    transition: transform 0.3s ease;
+
+  /* ให้แถวบนจัดเรียงใหม่ */
+  .nav-header-pc-box {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
   }
-  
-  .card:hover {
-    transform: translateY(-6px);
+
+  .logo {
+    margin-left: 0;
+    justify-content: center;
+    flex: 1;
   }
-  
-  .card img {
+
+  .menu-bar{
+    margin-left: -15px;
+  }
+
+  .line-bar {
+    width: 25px;
+    height: 2px;
+    background-color: black;
+    margin: 6px 40px;
+  }
+
+  .nav-rigth {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-left: 30px;
+  }
+
+  /* ปรับ banner */
+  .banner-large-content-black {
+    background-image: none;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    height: auto;
+    padding: 20px 10px;
+    .no-flip-over2 {
+      max-width: 70px;
+      margin-bottom: 5px;
+    }
+  }
+
+  .banner-mobile img {
+   width: 100%;
+  }
+
+  .banner-large-product {
     width: 100%;
-    border-radius: 12px;
-    border-bottom: 1px solid red;
+    max-width: 300px;
+    text-align: center;
   }
-  
-  .name {
-    font-weight: bold;
-    font-size: 1.05rem;
-    margin: 0.5rem 0 0.2rem;
+
+  .no-flip-over {
+    width: 100%;
+    max-width: 50px;
+    font-size: 20px;
   }
-  
-  .desc {
-    font-size: 0.95rem;
-    color: #333;
+
+  .banner-large-title {
+    text-align: center;
+    margin-bottom: 20px;
   }
+
+  .banner-large-link {
+    text-align: center;
+    .a1 {
+      font-size: 10px;
+    }
+  }
+
+  .banner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 0;
+    .x200 img {
+      width: 100%;
+    }
+  }
+
+  .banner-mid-content-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    height: auto;
+    width: 385px;
+    height: 496px;
+    .no-flip-over2 {
+      margin-left: 20px;
+      margin-top: 20px;
+      width: 180px;
+    }
+    .mid-title {
+      margin-left: 20px;
+    }
+    .mid-link {
+      margin-left: 20px;
+    }
+  }
+
+  .yada {
+    flex-direction: column;
+    height: auto;
+    padding: 0;
+    padding-top: 40px;
+    max-width: 385px;
+    min-width: 385px;
+    height: 496px;
+    background-image: none;
+    .yd-img img {
+      width: 100%;
+    }
+  }
+
+  .yada-img,
+  .yada-text {
+    flex: unset;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .yada-title span {
+    font-size: 24px;
+  }
+
+  .yada-link .a3 {
+    padding: 10px 40px;
+    font-size: 16px;
+  }
+
+  #y200 {
+    padding-right: 0;
+  }
+
+  .container {
+    padding: 1rem;
+    width: 385px;
+    background-color: rgb(246, 248, 251);
+    .title {
+      font-size: 20px;
+      font-weight: lighter;
+    }
+    .card {
+      width: 100%;
+      border-radius: 5px;
+    }
+    .name, .desc {
+      text-align: left;
+      padding-left: 5px;
+    }
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
   #tws {
-    margin-left: 800px;
+    margin-left: 0;
+    text-align: center;
   }
 
   .footer {
-    background-color: #1f232a;
-    padding: 40px;
-  }
-  
-  .footer-container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .footer-columns {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    justify-content: space-between;
-  }
-  
-  .footer-col {
-    flex: 1 1 200px;
-  }
-  
-  .footer-col h4 {
-    color: white;
-    margin-bottom: 10px;
-  }
-  
-  .footer-col ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .footer-col li {
-    margin: 6px 0;
-    font-size: 14px;
-    color: #ccc;
-  }
-  
-  .footer-contact {
-    flex: 1 1 300px;
-    font-size: 14px;
-    color: #ccc;
-  }
-  
-  .footer-contact ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .footer-contact li {
-    margin: 10px 0;
-  }
-  
-  .footer-contact i {
-    margin-right: 10px;
-    color: #ccc;
-  }
-  
-  .highlight-number {
-    font-size: 20px;
-    color: white;
-    font-weight: bold;
-    margin-left: 30px;
-  }
-  
-  .socials {
-    margin-top: 20px;
-  }
-  
-  .social-icons i {
-    margin-right: 10px;
-    font-size: 18px;
-    color: #ccc;
-    cursor: pointer;
-  }
-  
-  .social-icons i:hover {
-    color: #fff;
+    width: 425px;
+    margin-inline: -40px;
   }
 
-  @media (max-width: 480px) {
-    /* ซ่อนเมนูเฉพาะรายการ */
-    .vep-new-header,
-    .vep-pc-nav-list {
-      display: none;
-    }
-  
-    /* ให้แถวบนจัดเรียงใหม่ */
-    .nav-header-pc-box {
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-      padding: 10px;
-    }
-  
-    .logo {
-      margin-left: 0;
-      justify-content: center;
-      flex: 1;
-    }
-  
-    .nav-rigth {
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      gap: 10px;
-      padding-right: 10px;
-    }
-  
-    /* ปรับ banner */
-    .banner-large-content-black {
-      flex-direction: column;
-      align-items: center;
-      margin-left: 0;
-      height: auto;
-      padding: 20px 10px;
-    }
-  
-    .banner-large-product,
-    .no-flip-over {
-      width: 100%;
-      max-width: 300px;
-      text-align: center;
-    }
-  
-    .banner-large-title {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-  
-    .banner-mid-content-box {
-      flex-direction: column;
-      align-items: center;
-      padding: 20px;
-      margin: 0;
-      height: auto;
-    }
-  
-    .yada {
-      flex-direction: column;
-      height: auto;
-      padding: 20px;
-      max-width: 100%;
-    }
-  
-    .yada-img,
-    .yada-text {
-      flex: unset;
-      width: 100%;
-      text-align: center;
-      align-items: center;
-      justify-content: center;
-    }
-  
-    .yada-title span {
-      font-size: 24px;
-    }
-  
-    .yada-link .a3 {
-      padding: 10px 40px;
-      font-size: 16px;
-    }
-  
-    #y200 {
-      padding-right: 0;
-    }
-  
-    .container {
-      padding: 1rem;
-    }
-  
-    .card-grid {
-      grid-template-columns: 1fr;
-    }
-  
-    #tws {
-      margin-left: 0;
-      text-align: center;
-    }
-  
-    .footer-columns {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .footer-col,
-    .footer-contact {
-      width: 100%;
-      text-align: center;
-    }
-  
-    .highlight-number {
-      margin-left: 0;
-    }
+  .footer-columns {
+    flex-direction: column;
+    align-items: center;
   }
   
+  .reduce {
+    margin-top: -190px;
+  }
+  
+  .contact {
+    margin-top: -170px;
+  }
+
+  .footer-col,
+  .footer-contact {
+    width: 100%;
+    .text-hidden {
+      display: none;
+    }
+    h4 {
+      text-align: left;
+      padding-bottom: 15px;
+      border-bottom: 2px solid #ffffff3d;
+    }
+  }
+
+  .highlight-number {
+    margin-left: 0;
+  }
+}
